@@ -2,7 +2,7 @@
 a program, having
 
 '''
-
+#iterable
 class myRange:
     def __init__(self, start, end):
         self.start = start
@@ -11,7 +11,7 @@ class myRange:
     def __iter__(self):
         return myRangeIterator(self)
     
-
+#iterator
 class myRangeIterator:
     def __init__(self, iterable_obj):
         self.iterable = iterable_obj
